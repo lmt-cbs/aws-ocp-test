@@ -2,16 +2,15 @@
 ## Red Hat OpenShift Container Platform on the AWS Cloud
 
 
-This Quick Start deploys Red Hat OpenShift Container Platform on the AWS Cloud in a highly available configuration.
+In this Quick Start y reduce the infraestructure needs of AWS & Red Hat OpenShift Container Platform to an easy test/dev installation with no HA
 
 Red Hat OpenShift Container Platform is a platform as a service (PaaS) solution that is based on Docker-formatted Linux containers, Google Kubernetes orchestration, and the Red Hat Enterprise Linux (RHEL) operating system.
 
 The Quick Start includes AWS CloudFormation templates that build the AWS infrastructure using AWS best practices, and then pass that environment to Ansible playbooks to build out the OpenShift environment. The deployment provisions OpenShift master instances, etcd instances, and node instances in a virtual private cloud (VPC) across three Availability Zones.
 
-The Quick Start offers two deployment options:
+The Quick Start offers :
 
 - Deploying OpenShift Container Platform into a new VPC
-- Deploying OpenShift Container Platform into an existing VPC
 
 You can also use the AWS CloudFormation templates as a starting point for your own implementation.
 
